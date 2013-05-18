@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="origin" fetch="." />
+
+  <default revision="master"
+           remote="origin"
+           sync-j="4" />
+
+  <project path="migrate/server" name="migrate" />
+  <project path="migrate/client" name="migrate-client" />
+  <project path="migrate/examples" name="Examples" />
+  <project path="migrate/sdk" name="sdk" />
+</manifest>
