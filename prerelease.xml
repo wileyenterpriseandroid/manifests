@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="origin" fetch="." />
-  <remote  name="ldornin" fetch="git@github.com:ldornin/" />
+  <remote  name="ldornin" fetch="ssh://git@github.com/" />
 
-  <default revision="master" remote="origin" sync-j="1" />
+  <default revision="master" remote="ldornin" sync-j="1" />
 
-  <project remote="ldornin" path="server" name="migrate" />
-  <project remote="ldornin" path="client" name="migrate-client" />
-  <project remote="ldornin" path="examples" name="EnterpriseAndroidExamples" />
+  <project path="server" name="ldornin/migrate" />
+  <project path="client" name="ldornin/migrate-client" />
+  <project path="examples" name="ldornin/EnterpriseAndroidExamples" />
 </manifest>
