@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="ldornin" fetch="ssh://git@github.com/" />
+  <remote  name="origin" fetch="ssh://git@github.com/" />
 
-  <default revision="master" remote="ldornin" sync-j="1" />
+  <default revision="master" remote="origin" sync-j="1" />
 
   <project path="server" name="ldornin/migrate" />
   <project path="client" name="ldornin/migrate-client" />
   <project path="examples" name="ldornin/EnterpriseAndroidExamples" />
+  <project path="sdk" name="wileyenterpriseandroid/migrate-sdk" />
 </manifest>
