@@ -4,8 +4,8 @@
 
   <default revision="master" remote="origin" sync-j="1" />
 
-  <project path="server" name="ldornin/migrate" />
-  <project path="client" name="ldornin/migrate-client" />
-  <project path="examples" name="ldornin/EnterpriseAndroidExamples" />
-  <project path="sdk" name="wileyenterpriseandroid/migrate-sdk" />
+  <project path="migrate-server" name="ldornin/migrate" />
+  <project path="migrate-client" name="ldornin/migrate-client" />
+  <project path="ea-examples" name="ldornin/EnterpriseAndroidExamples" />
+  <project path="migrate-sdk" name="wileyenterpriseandroid/migrate-sdk" />
 </manifest>
