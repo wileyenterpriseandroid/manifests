@@ -4,8 +4,6 @@
 
   <default revision="master" remote="origin" sync-j="1" />
 
-  <project path="migrate-server" name="migrate" />
-  <project path="migrate-client" name="migrate-client" />
   <project path="migrate-sdk" name="migrate-sdk" />
   <project path="ea-examples" name="Examples" />
 </manifest>
